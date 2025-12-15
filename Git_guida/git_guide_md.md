@@ -8,16 +8,6 @@ sudo apt update
 sudo apt install git
 ```
 
-### Su distribuzioni basate su Red Hat/Fedora
-```bash
-sudo dnf install git
-```
-
-### Su Arch Linux
-```bash
-sudo pacman -S git
-```
-
 ### Verifica dell'installazione
 ```bash
 git --version
