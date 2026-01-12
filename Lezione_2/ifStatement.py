@@ -82,6 +82,10 @@ password = "1234"
 if password.isdigit():
     print("La password è composta da solo numeri")
 
+if len(password) > 8:
+    print("Password con più di 8 caratteri")
+else:
+    print("Mi spiace, la tua pass non rispetta i requisiti di lunghezza")
 
 codice = "abc1234"
 if not codice.isdigit(): #solo numeri
@@ -102,3 +106,20 @@ if corso:
     print("La stringa del corso non è vuota")
 else:
     print("La stringa del corso è vuota")
+
+
+
+######### ESEMPIO IF ANNIDATI ############
+etaUser = 20
+has_invito = False
+
+if etaUser >= 18:
+    print("Hai l'età giusta per entrare, adesso controllo il biglietto")
+    if has_invito:
+        print("Il tuo invito è valido, puoi entrare")
+    else:
+        print("Il tuo invito NON è valido e non puoi entrare")
+else:
+    print("Mi spiace, per partecipare bisogna essere maggiorenni")
+
+

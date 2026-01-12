@@ -181,7 +181,7 @@ temp/
 Per repository remoti, puoi usare:
 
 ### HTTPS con token personale
-```bash
+```bashi l'età giusta per entrare, adesso controllo il biglietto
 git clone https://github.com/utente/repository.git
 # Ti verrà chiesto username e token
 ```
