@@ -27,6 +27,8 @@ Verifica la configurazione:
 git config --list
 ```
 
+# Prova GIt
+
 ## Comandi fondamentali
 
 ### Creare un nuovo repository
