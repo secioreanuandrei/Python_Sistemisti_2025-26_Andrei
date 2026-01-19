@@ -80,3 +80,27 @@ mv ./Downloads/Videos/ ./
 ```
 ## Creare un file `touch dest/nomeFile`
 ## Creare una cartella `mkdir dest/nomeDir`
+
+
+# Lettura file di testo 
+- `less nomefile.txt`
+- `more nomefile.txt`
+- `head` per leggere la parte iniziale di un testo
+- `tail` per leggere la parte finale di un testo
+
+Per poter scorrere facilmente il testo utilizza:
+- `spazio` per scendere giù di una pagina
+- `B` per salire
+- `Enter` scende giù di 1 riga
+- `q` chiude, quit
+
+
+# Scrittura file di testo
+- opzione 1: utilizzo degli stdInput stdOutput stdError
+```linux
+ls ./ > mioFile.txt (scrive tutto l'output che va a buon fine)
+ls ./prova 2> mioFile.txt (scrive solo l'output di errore)
+ls ./ &> mioFile.txt (scrive tutto)
+cat > mioFile.txt (scrive tutto ciò che io digito come input: ctrl+c per terminare)
+``` 
+
