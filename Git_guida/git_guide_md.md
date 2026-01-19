@@ -138,6 +138,7 @@ git restore nomefile.txt      # Annulla modifiche a un file
 git restore .                 # Annulla tutte le modifiche
 ```
 
+
 ### Rimuovere file dall'area di staging
 ```bash
 git restore --staged nomefile.txt
