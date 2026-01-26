@@ -10,19 +10,14 @@ for i in range(0,46, 4):
 #Stampa tutti i numeri da 1 a 100. Quando stampi un multiplo di 3 stampa Zoom, quando stampa un multipli di 5 stampa Boom, quando stampi un multiplo di 3 e di 5 stampa Bangherang
 print("========  Giochino ZOOM BOOM Bangherang =========")
 for i in range(1,101):
-    if i % 3 == 0: 
-        print(i, "ZOOM")
-    else:
-        print(i)
-for i in range(1,101):
-    if i % 5 == 0:
+    if i % 3 == 0 and i % 5 == 0: 
+        print(i, "bangherang")
+    elif i % 3 == 0:
+        print(i, "zoom")
+    elif i % 5 == 0:
         print(i, "BOOM")
     else:
         print(i)
-for i in range(1,101):
-    if (i % 3 == 0) and (i % 5 == 0):
-        print(i, "BANGHERANG")
-    else:
-        print(i)
+
                       
 
