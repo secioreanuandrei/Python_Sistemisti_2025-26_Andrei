@@ -14,7 +14,15 @@ for i in range(1,101):
         print(i, "ZOOM")
     else:
         print(i)
-
-
-# Fare le LISTE, cioè quello che noi chiamiamo Array
+for i in range(1,101):
+    if i % 5 == 0:
+        print(i, "BOOM")
+    else:
+        print(i)
+for i in range(1,101):
+    if (i % 3 == 0) and (i % 5 == 0):
+        print(i, "BANGHERANG")
+    else:
+        print(i)
+                      
 
