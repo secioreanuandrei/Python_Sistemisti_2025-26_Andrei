@@ -5,6 +5,7 @@
 #4.Contare quanti sono i prodotti presenti.
 #5.Mostrare solo i prodotti con più di 5 lettere.
 #6.Creare una nuova lista di prodotti ma in maisucolo.
+#7.Aggiungi un prodotto alla lista spesa 
 
 listaSpesa = ["acqua", "pane", "uova", "sale", "pepe", "peperoni"]
 
