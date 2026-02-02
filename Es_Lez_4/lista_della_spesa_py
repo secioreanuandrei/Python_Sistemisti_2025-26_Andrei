@@ -1,0 +1,67 @@
+def aggiunta_prodotto(lista):
+    prodotto = input("Inserisci il nome del prodotto da aggiungere: ")
+    lista.append(prodotto)
+    print("Prodotto aggiunto")
+
+def mostra_lista(lista):
+    if len(lista) == 0:
+        print("La lista della spesa è vuota")
+    else:
+        print("\nLista della spesa:")
+        for i, prodotto in enumerate(lista, 1):
+            print(i, "-", prodotto)
+
+def rimuovi_prodotto(lista):
+    prodotto = input("Inserisci il nome del prodotto da rimuovere: ")
+    if prodotto in lista:
+        lista.remove(prodotto)
+        print("Prodotto rimosso")
+    else:
+        print("Prodotto non presente nella lista")
+
+def conta_prodotti(lista):
+    print("Numero totale di prodotti:", len(lista))
+
+def pulisci_lista(lista):
+    lista.clear()
+    print("Lista svuotata")
+
+
+def menu():
+    print("\nLISTA DELLA SPESA")
+    print("1 - Aggiungi prodotto")
+    print("2 - Mostra lista")
+    print("3 - Rimuovi prodotto")
+    print("4 - Conta prodotti")
+    print("5 - Pulisci lista")
+    print("0 - Esci")
+
+
+lista_spesa = []
+
+while True:
+    menu()
+    scelta = input("Scegli un'opzione: ")
+
+    if scelta == "0":
+        print("Uscita dal programma")
+        break
+
+    elif scelta == "1":
+        aggiunta_prodotto(lista_spesa)
+
+    elif scelta == "2":
+        mostra_lista(lista_spesa)
+
+    elif scelta == "3":
+        rimuovi_prodotto(lista_spesa)
+
+    elif scelta == "4":
+        conta_prodotti(lista_spesa)
+
+    elif scelta == "5":
+        pulisci_lista(lista_spesa)
+
+    else:
+        print("Scelta non valida")
+2
