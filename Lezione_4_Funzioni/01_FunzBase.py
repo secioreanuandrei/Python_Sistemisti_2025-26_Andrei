@@ -123,6 +123,4 @@ def ricorsiva(n):
 
 ricorsiva(1)
 
-
-
     
