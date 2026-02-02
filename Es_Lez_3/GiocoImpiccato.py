@@ -28,3 +28,5 @@ while(tentativi <= 6):
     if not parolaARR.__contains__(letteraCercata):
         tentativi += 1
         print(f"Ti restano {6 - tentativi} tentativi")
+
+
