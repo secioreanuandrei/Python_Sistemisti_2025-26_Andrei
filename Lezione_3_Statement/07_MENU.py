@@ -1,3 +1,9 @@
+
+
+
+
+#QUI INIZIA IL MENU
+
 print("=== MENU, fai la tua scelta ===\n")
 
 scelta = ""
